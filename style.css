@@ -1,0 +1,82 @@
+html
+{
+	box-sizing: border-box;
+
+}
+body
+{
+	margin: 0;
+	padding: 0;
+	background-color: white;
+}
+h1{
+	text-align: center;
+}
+.box
+{
+	background-color: gray;
+	padding: 0px;
+	border: 1px solid black;
+	/*margin: 15px 15px 15px 30px;*/
+	margin: 2%;
+	width: 29%;
+	float: left;		
+}
+#content
+{
+	background-color: gray;
+	padding: 30px 10px 10px 10px;
+
+}
+.header
+{	
+	border: 2px solid black;
+	width: 100px;
+	box-sizing: border-box;
+	padding: 10px;
+	float: right;
+}
+#head1{
+	background-color: pink;
+}
+#head2{
+	background-color: darkred;
+	color: white;
+}
+#head3{
+	background-color: yellow;	
+}
+
+
+@media (max-width: 767px)
+{
+	.box
+	{
+		width: 90%;
+	}
+}
+@media (min-width:  768px) and (max-width: 991px)
+{
+	#b1
+	{
+		margin: 4%;
+		width: 40%;
+	}
+	#b2
+	{
+		margin: 4%;
+		width: 40%
+	}
+	#b3
+	{
+		margin: 4%;
+		width: 88%;
+	}
+}
+@media (min-width: 992px)
+{
+	.box
+	{
+		width: 29%;
+	}
+}
